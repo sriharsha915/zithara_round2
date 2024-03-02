@@ -1,0 +1,102 @@
+body {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST1YVV-_PSlC9gb43T3lnvqBrtJaCEsvnC7w&usqp=CAU');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f3f4;
+  box-shadow: 50px 10px 50px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  background-color: #c9c2c2;
+  text-align: center;
+  padding: 20px 0;
+}
+
+h1 {
+  color: #c92020;
+}
+
+main {
+  margin-top: 20px;
+}
+
+.search-sort {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  width: 50%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #e9eee8;
+  padding: 8px;
+  text-align: left;
+}
+
+thead {
+  background-color: #f2f2f2;
+}
+
+th {
+  font-weight: bold;
+}
+
+tbody tr:hover {
+  background-color: #9dda0f;
+}
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  padding: 8px;
+  margin: 0 4px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+button.active {
+  background-color: #6507e0;
+  color: #f5eeee;
+  border-color: #6507e0;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+  padding: 20px 0;
+  background-color: #280581a9;
+  color: #f4f6f5;
+}
